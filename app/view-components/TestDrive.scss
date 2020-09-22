@@ -1,0 +1,36 @@
+.test-drive {
+  display: flex;
+  flex-direction: column;
+  .session-info {
+    justify-content: flex-start;
+    align-items: center;
+    height: 200px;
+    padding: 1em;
+  }
+  .main {
+    display: flex;
+    border-top: 1px solid #BBB;
+    padding: 0 1em 1em 1em;
+    .left {
+      width: 35%;
+    }
+    .right {
+      width: calc(65%);
+      .code-source {
+        border: 1px solid #BBB;
+      }
+    }
+  }
+  .output {
+    width: 100%;
+    padding-left: 1em;
+  }
+}
+
+.app-container.light .output {
+  background-color: #CCC;
+}
+
+.app-container.dark .output {
+  background-color: #222;
+}

@@ -1,0 +1,27 @@
+footer {
+  display: flex;
+  .foot-info {
+    width: 93%;
+  }
+  .foot-date {
+    width: 7%;
+    padding: 1em;
+    display: flex;
+    .date {
+      text-align: right;
+    }
+  }
+}
+
+.app-container.light footer {
+  border-top: 1px solid #bbb;
+  a {
+    color: #222222;
+  }
+}
+.app-container.dark footer {
+  border-top: 1px solid #777;
+  a {
+    color: #EFEFEF;
+  }
+}
